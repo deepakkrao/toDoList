@@ -1,0 +1,83 @@
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&family=Zeyada&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Tilt Neon',sans-serif;
+
+}
+main{ 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(140, 228, 240);
+     
+}
+.box{
+    width: 800px;
+    height: 850px;
+    background-color: lightyellow;
+    border-radius: 2%;
+    padding: 20px;
+    margin-top: 120px;
+
+}
+input{
+    padding: 5px; 
+}
+#item{
+    padding-top:10px;
+     width:100%;
+     border: 0;
+     font-size:20px;
+     outline:0;
+     box-shadow: 0px 0px 5px rgb(140, 228, 240);
+}
+#to-do-box{
+    margin-top: 20px;
+    list-style: none;
+}
+#to-do-box li{
+    position: relative;
+    background-color:  rgb(140, 228, 240);
+    color:deeppink;
+    padding: 10px;
+    border-radius: 2px;
+    padding-right: 25px;
+    margin-top: 20px;
+    text-align: justify;
+    user-select: none;
+
+}
+ 
+#to-do-box li i {
+    font-size:20px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top:10px;
+}
+
+.done{
+    text-decoration: line-through;
+    color: whitesmoke !important;
+    background-color: dimgrey !important;
+}
+.heading{
+    color: deeppink;
+    font-size: 35px;
+    margin-bottom: 20px;
+
+}
+#time-date{
+
+    color: #056ef6;
+    font-size: 20px;
+    margin-bottom: 10px;
+    display:inline;
+    margin-left: 10%;
+}
